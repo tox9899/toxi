@@ -1,0 +1,24 @@
+# TOXIAuth settings
+min-password-length: 8
+max-password-length: 64
+bcrypt-cost: 12
+messages:
+  prefix: "&8[&bTOXIAuth&8] "
+  register: "&eCreate an account: &b/register <password> <confirm-password>"
+  login: "&ePlease log in: &b/login <password>"
+  registered: "&aAccount created. You are now logged in."
+  logged-in: "&aYou are now logged in."
+  already-registered: "&cYou already have an account. Use /login."
+  not-registered: "&cYou don't have an account. Use /register <password> <confirm-password>."
+  wrong-password: "&cIncorrect password."
+  password-mismatch: "&cThe passwords do not match."
+  password-length: "&cPassword must be between %min% and %max% characters."
+  busy: "&ePlease wait for the current security check to finish."
+  logged-out: "&cYou must log in before doing that."
+  changed: "&aYour password has been changed."
+  old-wrong: "&cYour old password is incorrect."
+  only-player: "&cThis command can only be used in-game."
+  usage-register: "&cUsage: /register <password> <confirm-password>"
+  usage-login: "&cUsage: /login <password>"
+  usage-change: "&cUsage: /changepassword <old-password> <new-password>"
+  password-commands-note: "&7Use commands only; never share your password with staff."

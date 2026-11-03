@@ -1,0 +1,24 @@
+name: TOXIAuth
+version: 1.0.0
+main: com.toxi.toxiauth.TOXIAuth
+api-version: '1.21'
+author: TOXI
+description: Simple register/login plugin for Paper servers, usable by Java and Geyser Bedrock players.
+softdepend: [floodgate]
+commands:
+  register:
+    description: Create your account
+    usage: /register <password> <confirm-password>
+    aliases: [reg]
+  login:
+    description: Log in to your account
+    usage: /login <password>
+    aliases: [l]
+  changepassword:
+    description: Change your password after logging in
+    usage: /changepassword <old-password> <new-password>
+    aliases: [changepass]
+permissions:
+  toxiauth.admin:
+    description: Allows administrative auth bypass
+    default: op
